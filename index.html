@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+        }
+
+        input, button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        body {
+    background-image: url('https://www.hdwallpapers.in/download/trees_forest_with_fog_in_silhouette_background_hd_nature-HD.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+       }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form class="form-container">
+            <h1>Login Form</h1>
+            <label for="name" style="color: aqua;"><h1>Name</h1></label>
+            <input id="name" type="text" placeholder="Enter your Name ">
+            
+            <label for="number" style="color: aqua;"><h1>Number</h1></label>
+            <input id="number" type="number" placeholder="Enter your Number">
+            
+            <label for="email" style="color: aqua;"><h1>Email</h1></label>
+            <input id="email" type="email" placeholder="Enter your Email">
+            
+            <button type="submit" style="background-color: rgb(51, 236, 45);"><b>Submit</b></button>
+        </form>
+    </div>
+
+    <div id="google_translate_element"></div>
+
+    <!-- Corrected Google Translate script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
